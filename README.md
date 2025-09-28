@@ -1,16 +1,13 @@
 # Infosys_Springboard
-
 ## TextMorph: Advanced Text Summarization and Paraphrasing
 
 **TextMorph: Advanced Text Summarization and Paraphrasing** is an NLP project designed to perform advanced text summarization and paraphrasing on large text documents. It leverages transformer models such as T5, BART, and PEGASUS to generate concise summaries and diverse paraphrases. Classical NLP techniques like bigram analysis and similarity scoring are integrated to provide deeper insights and visual representations of textual patterns. This combination of models and analysis makes the project suitable for automated text understanding and exploration.
 
----
 
 ## Methodology
 
 **Text Inputs:**  
 Two public domain literary works were selected from Project Gutenberg for analysis:  
-
 - [Alice’s Adventures in Wonderland by Lewis Carroll](https://www.gutenberg.org/files/11/11-0.txt)  
 - [The Adventures of Sherlock Holmes by Arthur Conan Doyle](https://www.gutenberg.org/files/1661/1661-0.txt)  
 
@@ -29,7 +26,6 @@ Frequent word pairs were extracted to identify recurring patterns and characteri
 **Visualizations:**  
 Word clouds highlighted common words in *Alice’s Adventures in Wonderland*, while heatmaps showed co-occurrences in *The Adventures of Sherlock Holmes*. Comparison plots illustrated differences between summarization and paraphrasing models, and bigram charts highlighted top recurring word pairs.
 
----
 
 ## Observations
 
@@ -48,8 +44,6 @@ Common word pairs such as “said Alice” in Wonderland and “Sherlock Holmes�
 **Visual Insights:**  
 Word clouds highlighted dominant themes and frequently occurring words, while heatmaps illustrated the co-occurrence of characters and important narrative terms, enhancing understanding of the text’s structure.
 
----
 
 ## Conclusion
-
 TextMorph demonstrates the effective combination of transformer-based models and classical NLP techniques to perform advanced text summarization and paraphrasing. By providing both quantitative evaluations and visual representations, the project offers a robust framework for automated text understanding. It establishes a strong foundation for further exploration of AI-driven language processing and advanced textual analysis.
