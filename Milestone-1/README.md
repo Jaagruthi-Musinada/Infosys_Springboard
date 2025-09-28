@@ -1,7 +1,7 @@
 # Infosys_Springboard
-## TextMorph: Advanced Text Summarization and Paraphrasing
+## TextMorph Advanced Text Summarization and Paraphrasing
 
-**TextMorph: Advanced Text Summarization and Paraphrasing** is an NLP project designed to perform advanced text summarization and paraphrasing on large text documents. It leverages transformer models such as T5, BART, and PEGASUS to generate concise summaries and diverse paraphrases. Classical NLP techniques like bigram analysis and similarity scoring are integrated to provide deeper insights and visual representations of textual patterns. This combination of models and analysis makes the project suitable for automated text understanding and exploration.
+**TextMorph Advanced Text Summarization and Paraphrasing** is an NLP project designed to perform advanced text summarization and paraphrasing on large text documents. It leverages transformer models such as T5, BART, and PEGASUS to generate concise summaries and diverse paraphrases. Classical NLP techniques like bigram analysis and similarity scoring are integrated to provide deeper insights and visual representations of textual patterns. This combination of models and analysis makes the project suitable for automated text understanding and exploration.
 
 
 ## Methodology
