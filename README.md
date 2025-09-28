@@ -24,7 +24,7 @@ Cosine similarity scores were computed using Sentence Transformers to assess ali
 Frequent word pairs were extracted to identify recurring patterns and characteristic phrases in each text.
 
 **Visualizations:**  
-Word clouds highlighted common words in *Alice’s Adventures in Wonderland*, while heatmaps showed co-occurrences in *The Adventures of Sherlock Holmes*. Comparison plots illustrated differences between summarization and paraphrasing models, and bigram charts highlighted top recurring word pairs.
+Word clouds highlighted common words in Alice’s Adventures in Wonderland, while heatmaps showed co-occurrences in The Adventures of Sherlock Holmes. Comparison plots illustrated differences between summarization and paraphrasing models, and bigram charts highlighted top recurring word pairs.
 
 
 ## Observations
