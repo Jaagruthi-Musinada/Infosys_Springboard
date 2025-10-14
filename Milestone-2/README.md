@@ -63,6 +63,8 @@ Music is a universal language that transcends boundaries, cultures, and generati
 <img width="1069" height="439" alt="image" src="https://github.com/user-attachments/assets/cbc9a6fd-044e-490d-8a34-5f927273431d" />
 <img width="1087" height="521" alt="image" src="https://github.com/user-attachments/assets/596eaad4-fb87-46aa-8641-1ac0b7602ea9" />
 <img width="1090" height="517" alt="image" src="https://github.com/user-attachments/assets/c200723e-7ade-450a-bef4-482025509add" />
+<img width="1044" height="230" alt="image" src="https://github.com/user-attachments/assets/2bb0d63b-ec0f-4a01-9f0e-4ffd92d04b4e" />
+
 <img width="1093" height="519" alt="image" src="https://github.com/user-attachments/assets/5b5ae40c-cf8b-4d48-9f61-6034a439ca20" />
 <img width="1085" height="515" alt="image" src="https://github.com/user-attachments/assets/26dc5022-8e72-4993-a51e-086caa323839" />
 <img width="1079" height="321" alt="image" src="https://github.com/user-attachments/assets/1b48f11c-daa0-4e08-9e9b-da44523a4e8d" />
@@ -126,5 +128,6 @@ The testing confirmed that the best model depends heavily on the content domain:
 
 * **For Expressive/Descriptive Content (Music):**
     * **Phi-1.5 (Abstractive)** led across ROUGE and Semantic Similarity. This highlights the strength of Abstractive models for descriptive texts, where generating fluent, varied, and coherent human-like sentences is beneficial for the summary's quality. Extractive methods struggle here because the best points are often spread across multiple paragraphs, making simple selection difficult.
+
 
 
