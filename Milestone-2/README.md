@@ -45,6 +45,34 @@ Performance was measured using a multi-faceted approach combining lexical overla
 
 ***
 
+# Sample text: Astronomy
+Astronomy, one of the oldest natural sciences, is the study of celestial bodies such as stars, planets, comets, galaxies, and the universe as a whole. Since ancient times, humans have looked to the night sky with curiosity, using the movements of stars and planets to track seasons, navigate journeys, and inspire myths. Over centuries, the invention of telescopes and the advancement of physics revolutionized our understanding of the cosmos. From Galileo’s first observations of Jupiter’s moons to Edwin Hubble’s discovery of galaxies beyond the Milky Way, astronomy has continually expanded the boundaries of human knowledge. Today, it combines cutting-edge technology, data analysis, and space missions to explore cosmic phenomena like black holes, dark matter, and the origin of the universe. Radio telescopes, space observatories like the James Webb Space Telescope, and interplanetary probes have revealed breathtaking details about distant worlds and star systems. Astronomy not only answers scientific questions but also deepens philosophical ones about existence and our place in the cosmos. It drives innovation in optics, computing, and materials science while uniting humanity under a shared curiosity about the stars. As we continue to gaze into the infinite expanse, astronomy remains a bridge between wonder and discovery — a timeless pursuit of understanding the universe we inhabit.
+
+
+<img width="1719" height="619" alt="image" src="https://github.com/user-attachments/assets/8a147064-f377-4339-a1ce-c53e2fa08fad" />
+<img width="1062" height="334" alt="image" src="https://github.com/user-attachments/assets/42cac188-1107-4d24-9f61-b93321e7efa9" />
+<img width="1070" height="333" alt="image" src="https://github.com/user-attachments/assets/0c0c7ce1-bc45-44db-be0d-fb3aef61fe39" />
+<img width="1081" height="538" alt="image" src="https://github.com/user-attachments/assets/6013e027-83d3-434e-bd6d-d8ffad079068" />
+<img width="1085" height="584" alt="image" src="https://github.com/user-attachments/assets/7932d4fa-8c39-4b90-9c3a-b9926537bd9e" />
+
+
+# Sample text: Music
+Music is a universal language that transcends boundaries, cultures, and generations, connecting people through rhythm, melody, and emotion. From the rhythmic beats of ancient drums to the complex symphonies of classical orchestras, music has always been an integral part of human civilization. It reflects the emotions, traditions, and identities of societies while offering comfort, joy, and expression to individuals. Different genres such as classical, jazz, rock, pop, and folk represent diverse creative approaches, each carrying unique histories and influences. Scientific studies have shown that music stimulates the brain, improves memory, and reduces stress, making it both an art and a form of therapy. In education, music enhances creativity, coordination, and emotional intelligence, shaping young minds in profound ways. The digital age has revolutionized how we create and experience music, with streaming platforms giving artists global reach and audiences instant access to millions of songs. Music also plays a vital role in films, advertisements, and social movements, amplifying messages and emotions. Whether it is a soulful tune, a patriotic anthem, or an energetic dance beat, music unites humanity through shared experiences. It remains an ever-evolving force of culture — timeless, expressive, and deeply human.
+
+<img width="1711" height="648" alt="image" src="https://github.com/user-attachments/assets/6022fc91-dce0-4024-9365-d571e546cc22" />
+<img width="1069" height="439" alt="image" src="https://github.com/user-attachments/assets/cbc9a6fd-044e-490d-8a34-5f927273431d" />
+<img width="1087" height="521" alt="image" src="https://github.com/user-attachments/assets/596eaad4-fb87-46aa-8641-1ac0b7602ea9" />
+<img width="1090" height="517" alt="image" src="https://github.com/user-attachments/assets/c200723e-7ade-450a-bef4-482025509add" />
+<img width="1093" height="519" alt="image" src="https://github.com/user-attachments/assets/5b5ae40c-cf8b-4d48-9f61-6034a439ca20" />
+<img width="1085" height="515" alt="image" src="https://github.com/user-attachments/assets/26dc5022-8e72-4993-a51e-086caa323839" />
+<img width="1079" height="321" alt="image" src="https://github.com/user-attachments/assets/1b48f11c-daa0-4e08-9e9b-da44523a4e8d" />
+<img width="1124" height="489" alt="image" src="https://github.com/user-attachments/assets/5a7402f2-2d99-42cb-a7ce-98429a833aa7" />
+
+
+
+
+
+
 ## 4. Comparative Performance Analysis
 
 The following table summarizes the performance of all models on the **Astronomy (A)** and **Music (M)** domain texts.
@@ -59,15 +87,6 @@ The following table summarizes the performance of all models on the **Astronomy 
 | **Compression (M)** | 29.5% | 17.6% | 65.3% | **75.6%** | 51.8% | 6.2% | 16.1% |
 
 ***
-# Sample text: Astronomy
-Astronomy, one of the oldest natural sciences, is the study of celestial bodies such as stars, planets, comets, galaxies, and the universe as a whole. Since ancient times, humans have looked to the night sky with curiosity, using the movements of stars and planets to track seasons, navigate journeys, and inspire myths. Over centuries, the invention of telescopes and the advancement of physics revolutionized our understanding of the cosmos. From Galileo’s first observations of Jupiter’s moons to Edwin Hubble’s discovery of galaxies beyond the Milky Way, astronomy has continually expanded the boundaries of human knowledge. Today, it combines cutting-edge technology, data analysis, and space missions to explore cosmic phenomena like black holes, dark matter, and the origin of the universe. Radio telescopes, space observatories like the James Webb Space Telescope, and interplanetary probes have revealed breathtaking details about distant worlds and star systems. Astronomy not only answers scientific questions but also deepens philosophical ones about existence and our place in the cosmos. It drives innovation in optics, computing, and materials science while uniting humanity under a shared curiosity about the stars. As we continue to gaze into the infinite expanse, astronomy remains a bridge between wonder and discovery — a timeless pursuit of understanding the universe we inhabit.
-
-## Section A: Summarize with All Models output
-<img width="1719" height="619" alt="image" src="https://github.com/user-attachments/assets/8a147064-f377-4339-a1ce-c53e2fa08fad" />
-<img width="1062" height="334" alt="image" src="https://github.com/user-attachments/assets/42cac188-1107-4d24-9f61-b93321e7efa9" />
-<img width="1070" height="333" alt="image" src="https://github.com/user-attachments/assets/0c0c7ce1-bc45-44db-be0d-fb3aef61fe39" />
-<img width="1081" height="538" alt="image" src="https://github.com/user-attachments/assets/6013e027-83d3-434e-bd6d-d8ffad079068" />
-<img width="1085" height="584" alt="image" src="https://github.com/user-attachments/assets/7932d4fa-8c39-4b90-9c3a-b9926537bd9e" />
 
 
 
@@ -107,4 +126,5 @@ The testing confirmed that the best model depends heavily on the content domain:
 
 * **For Expressive/Descriptive Content (Music):**
     * **Phi-1.5 (Abstractive)** led across ROUGE and Semantic Similarity. This highlights the strength of Abstractive models for descriptive texts, where generating fluent, varied, and coherent human-like sentences is beneficial for the summary's quality. Extractive methods struggle here because the best points are often spread across multiple paragraphs, making simple selection difficult.
+
 
