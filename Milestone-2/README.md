@@ -59,6 +59,20 @@ The following table summarizes the performance of all models on the **Astronomy 
 | **Compression (M)** | 29.5% | 17.6% | 65.3% | **75.6%** | 51.8% | 6.2% | 16.1% |
 
 ***
+# Sample text: Astronomy
+Astronomy, one of the oldest natural sciences, is the study of celestial bodies such as stars, planets, comets, galaxies, and the universe as a whole. Since ancient times, humans have looked to the night sky with curiosity, using the movements of stars and planets to track seasons, navigate journeys, and inspire myths. Over centuries, the invention of telescopes and the advancement of physics revolutionized our understanding of the cosmos. From Galileo’s first observations of Jupiter’s moons to Edwin Hubble’s discovery of galaxies beyond the Milky Way, astronomy has continually expanded the boundaries of human knowledge. Today, it combines cutting-edge technology, data analysis, and space missions to explore cosmic phenomena like black holes, dark matter, and the origin of the universe. Radio telescopes, space observatories like the James Webb Space Telescope, and interplanetary probes have revealed breathtaking details about distant worlds and star systems. Astronomy not only answers scientific questions but also deepens philosophical ones about existence and our place in the cosmos. It drives innovation in optics, computing, and materials science while uniting humanity under a shared curiosity about the stars. As we continue to gaze into the infinite expanse, astronomy remains a bridge between wonder and discovery — a timeless pursuit of understanding the universe we inhabit.
+
+## Section A: Summarize with All Models output
+<img width="1719" height="619" alt="image" src="https://github.com/user-attachments/assets/8a147064-f377-4339-a1ce-c53e2fa08fad" />
+<img width="1062" height="334" alt="image" src="https://github.com/user-attachments/assets/42cac188-1107-4d24-9f61-b93321e7efa9" />
+<img width="1070" height="333" alt="image" src="https://github.com/user-attachments/assets/0c0c7ce1-bc45-44db-be0d-fb3aef61fe39" />
+<img width="1081" height="538" alt="image" src="https://github.com/user-attachments/assets/6013e027-83d3-434e-bd6d-d8ffad079068" />
+<img width="1085" height="584" alt="image" src="https://github.com/user-attachments/assets/7932d4fa-8c39-4b90-9c3a-b9926537bd9e" />
+
+
+
+
+
 
 ## 5. Model Output Analysis by Category
 
@@ -93,3 +107,4 @@ The testing confirmed that the best model depends heavily on the content domain:
 
 * **For Expressive/Descriptive Content (Music):**
     * **Phi-1.5 (Abstractive)** led across ROUGE and Semantic Similarity. This highlights the strength of Abstractive models for descriptive texts, where generating fluent, varied, and coherent human-like sentences is beneficial for the summary's quality. Extractive methods struggle here because the best points are often spread across multiple paragraphs, making simple selection difficult.
+
