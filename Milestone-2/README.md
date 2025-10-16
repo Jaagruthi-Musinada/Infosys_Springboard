@@ -70,24 +70,6 @@ Music is a universal language that transcends boundaries, cultures, and generati
 <img width="1079" height="321" alt="image" src="https://github.com/user-attachments/assets/1b48f11c-daa0-4e08-9e9b-da44523a4e8d" />
 <img width="1124" height="489" alt="image" src="https://github.com/user-attachments/assets/5a7402f2-2d99-42cb-a7ce-98429a833aa7" />
 
-***
-
-## 4. Comparative Performance Analysis
-
-The following table summarizes the performance of all models on the **Astronomy (A)** and **Music (M)** domain texts.
-
-| Metric | TinyLlama (Abs) | Phi-1.5 (Abs) | **Gemma-2B-IT (Abs)** | BART-Large-CNN (Abs) | TextRank (Ext) | Phi-1.5 (Ext) | TinyLlama (Ext) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **ROUGE-2 (A)** | 0.579 | **0.756** | 0.233 | 0.449 | 0.689 | **0.833** | 0.782 |
-| **Semantic Sim. (A)** | **0.928** | 0.869 | 0.640 | 0.811 | 0.919 | 0.917 | 0.897 |
-| **Time (sec) (A)** | 7.54 | 6.49 | 2.47 | **1.46** | **0.07** | 7.78 | 8.08 |
-| **ROUGE-2 (M)** | 0.807 | **0.897** | 0.293 | 0.370 | 0.620 | 0.774 | 0.827 |
-| **Semantic Sim. (M)** | 0.941 | **0.960** | 0.821 | 0.862 | 0.913 | 0.929 | 0.935 |
-| **Compression (M)** | 29.5% | 17.6% | 65.3% | **75.6%** | 51.8% | 6.2% | 16.1% |
-
-***
-
-
 
 ### 10 Sample Texts for Summarization 
 
@@ -120,6 +102,23 @@ The concept of cryptocurrency, decentralized digital money secured by cryptograp
 
 **Sample 10: Plate Tectonics and Geology**
 Plate tectonics is the scientific theory that Earth's outer layer is divided into several large plates that slowly move over the mantle. This movement is the driving force behind earthquakes, volcanic eruptions, and the formation of mountain ranges. The plates interact at their boundaries: they can slide past, collide, or separate. The theory revolutionized geology, explaining many phenomena and providing a unified framework for understanding the planet's dynamic surface and its geological history. Advances in GPS technology and seismic monitoring allow scientists to measure plate movements with unprecedented accuracy, improving hazard prediction models for communities located near active fault lines and subduction zones. The slow process of continental drift has shaped not only geology but also global climate and the evolution of life on Earth, linking deep-time geological processes to contemporary ecological distribution and long-term environmental stability. Continued research into mantle convection provides critical clues about the fundamental forces driving this planetary mechanism.
+
+***
+
+## 4. Comparative Performance Analysis
+
+The following table summarizes the performance of all models on the **Astronomy (A)** and **Music (M)** domain texts.
+
+| Metric | TinyLlama (Abs) | Phi-1.5 (Abs) | **Gemma-2B-IT (Abs)** | BART-Large-CNN (Abs) | TextRank (Ext) | Phi-1.5 (Ext) | TinyLlama (Ext) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **ROUGE-2 (A)** | 0.579 | **0.756** | 0.233 | 0.449 | 0.689 | **0.833** | 0.782 |
+| **Semantic Sim. (A)** | **0.928** | 0.869 | 0.640 | 0.811 | 0.919 | 0.917 | 0.897 |
+| **Time (sec) (A)** | 7.54 | 6.49 | 2.47 | **1.46** | **0.07** | 7.78 | 8.08 |
+| **ROUGE-2 (M)** | 0.807 | **0.897** | 0.293 | 0.370 | 0.620 | 0.774 | 0.827 |
+| **Semantic Sim. (M)** | 0.941 | **0.960** | 0.821 | 0.862 | 0.913 | 0.929 | 0.935 |
+| **Compression (M)** | 29.5% | 17.6% | 65.3% | **75.6%** | 51.8% | 6.2% | 16.1% |
+
+***
 
 
 ## 5. Model Output Analysis by Category
@@ -155,6 +154,7 @@ The testing confirmed that the best model depends heavily on the content domain:
 
 * **For Expressive/Descriptive Content (Music):**
     * **Phi-1.5 (Abstractive)** led across ROUGE and Semantic Similarity. This highlights the strength of Abstractive models for descriptive texts, where generating fluent, varied, and coherent human-like sentences is beneficial for the summary's quality. Extractive methods struggle here because the best points are often spread across multiple paragraphs, making simple selection difficult.
+
 
 
 
