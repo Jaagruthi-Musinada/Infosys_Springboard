@@ -1,6 +1,6 @@
 #  Secure NLP Toolkit Platform: Summarization, Paraphrasing, and Authentication
 
-This document details the architecture and deployment of the Secure NLP Toolkit, a comprehensive web application built on **Streamlit**, integrating state-of-the-art **Hugging Face Transformers** for core NLP functionalities and a secure **JWT-based authentication system** with an **SQLite backend**.
+This document details the architecture and deployment of the **Secure NLP Toolkit**, a comprehensive web application built on **Streamlit**, integrating state-of-the-art **Hugging Face Transformers** for core NLP functionalities and a secure **JWT-based authentication system** with an **SQLite backend**.
 
 The platform is designed to provide robust text processing capabilities and includes a secure administrative layer for user management.
 
@@ -24,7 +24,28 @@ The platform is designed to provide robust text processing capabilities and incl
 
 ---
 
-## II. Deployment and Configuration Guide
+## II. Technical Specifications: Text Analysis Dashboard
+
+The Text Analysis Dashboard serves as a dedicated utility within the platform to provide objective metrics and insights into the complexity and content of any input text. This functionality is powered primarily by the **`textstat`** and **`rake-nltk`** Python libraries, alongside standard NLTK components for tokenization.
+
+### A. Readability and Complexity Analysis
+The application leverages the **`textstat`** library to calculate a range of industry-standard readability scores. These metrics are crucial for assessing the educational grade level required to comprehend the text:
+
+* **Flesch Reading Ease (FRE):** Provides a score from 0 to 100, where higher scores indicate text that is easier to read.
+* **Flesch-Kincaid Grade Level (FKGL):** Outputs a U.S. school grade level, indicating the educational attainment required to understand the text.
+* **SMOG Index and Gunning Fog Index:** Other grade-level estimates used for assessing textual difficulty.
+
+The dashboard utilizes the FKGL score to categorize the text into **Beginner, Intermediate, or Advanced** complexity levels, providing a quick visual assessment.
+
+### B. Core Text Metrics and Keyword Extraction
+The dashboard displays fundamental metrics derived using NLTK tokenizers and advanced algorithms:
+
+* **Quantitative Metrics:** Presents objective measures including **Word Count**, **Sentence Count**, **Average Sentence Length**, and a calculated **Hard Word Count** (words with 3+ vowels).
+* **Keyword Extraction:** The platform incorporates the **Rapid Automatic Keyword Extraction (RAKE) algorithm** via the **`rake-nltk`** library. This method identifies and presents a ranked list of the top keywords/key phrases by analyzing word frequency and co-occurrence within the text.
+
+---
+
+## III. Deployment and Configuration Guide
 
 ### A. Prerequisites
 
@@ -75,20 +96,22 @@ This account should be utilized for initial login and subsequent user management
 
 ---
 
-## III. Platform Demonstration
+## IV. Platform Demonstration
 
 A recorded demonstration showcasing the platform's key features, including the secure login process, summarization module, and administrative functions, is available via the link below:
 
-**[(https://screenrec.com/share/DO5gsMVpyl)]**
+**[https://screenrec.com/share/DO5gsMVpyl]**
 
 ---
 
-## IV. Technical Stack Summary
+## V. Technical Stack Summary
 
 | Component | Technology/Library | Function |
 | :--- | :--- | :--- |
 | **User Interface** | Streamlit | Front-end framework for rapid application development. |
 | **Authentication** | bcrypt, PyJWT, SQLite3 | Password hashing, session token management, and database storage. |
 | **Core NLP** | Hugging Face `transformers` | Implementation of models (Pegasus, BART, FLAN-T5) for summarization/paraphrasing. |
-| **Evaluation** | `rouge_score` | Standard metric for quantitative assessment of generated summaries. |
 | **Text Analysis** | `textstat`, `rake-nltk` | Readability calculation and automated keyword extraction. |
+| **Evaluation** | `rouge_score` | Standard metric for quantitative assessment of generated summaries. |
+
+
