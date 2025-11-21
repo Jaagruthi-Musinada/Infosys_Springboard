@@ -1,5 +1,5 @@
 
-## Project Overview
+## Web Application for Text Summarization, Paraphrasing, and Model Training
 
 This project is a Streamlit-based web application that integrates secure authentication with transformer-based text processing features. The system includes user login, registration, OTP-based password reset, role-based dashboards, and tools for text summarization, paraphrasing, data augmentation, and model fine-tuning.
 
@@ -58,5 +58,6 @@ Admin default login:
 
 * Email: `admin@ai`
 * Password: `Infosys`
+
 
 
