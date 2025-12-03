@@ -8,7 +8,7 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 
 | Category | Details |
 |----------|---------|
-| **📽️ Demo Video** | https://github.com/Lithicka-G/Infosys_Springboard/blob/main/Milestone4/Milestone%204%20Video.mp4 |
+| **📽️ Demo Video** | https://drive.google.com/file/d/1f_Cxk4lPNPtW2Kn788O3x-dEOASuvHZ-/view?usp=sharing |
 | **🧩 Source Code** | Final_Milestone |
 | **🐳 Docker Support** | Yes |
 | **🧠 AI Models** | Pegasus · BART · FLAN-T5 |
